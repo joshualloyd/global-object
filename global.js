@@ -2,4 +2,8 @@
 
 const { versions } = process;
 
-console.log(`Node.js version: ${versions.node}\nV8 version: ${versions.v8}`);
+const { node, v8 } = versions;
+
+// console.log(node, v8);
+
+console.log(`Node.js version: ${node}\nV8 version: ${v8}`);
